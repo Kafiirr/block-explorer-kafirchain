@@ -14,7 +14,7 @@
         href="https://kafir.framer.website"
         target="_blank"
         rel="noopener noreferrer"
-        >Ping.pub</a
+        >Kafir Website</a
       >
     </div>
     <div
