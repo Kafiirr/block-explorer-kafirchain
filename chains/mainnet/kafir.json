@@ -1,5 +1,5 @@
 {
-    "chain_name": "kafir",
+    "chain_name": "Kafirchain Testnet",
     "api": "https://froopyland.dymension.xyz/22/kafirchain_4272528-1/rest",
     "rpc": "https://froopyland.dymension.xyz/22/kafirchain_4272528-1/rpc",
     "chainId": "kafirchain_4272528-1",
