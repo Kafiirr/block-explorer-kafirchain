@@ -1,6 +1,6 @@
 <template>
   <svg
-    xmlns="http://www.w3.org/2000/svg"
+    xmlns="https://i.imgur.com/fbztYa5.png"
     width="20"
     height="20"
     fill="currentColor"

@@ -6,12 +6,12 @@
     <div class="flex flex-1">
       &copy;&nbsp;
       {{ new Date().getFullYear() }}&nbsp;
-      Made With&nbsp;
+      Made&nbsp;
       <img src="../../assets/images/heart.svg" />&nbsp;
       By&nbsp;
       <a
         class="link link-primary no-underline"
-        href="https://ping.pub"
+        href="https://kafir.framer.website"
         target="_blank"
         rel="noopener noreferrer"
         >Ping.pub</a
