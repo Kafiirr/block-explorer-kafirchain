@@ -8,13 +8,13 @@
     "coin_type": "118",
     "min_tx_fee": "700",
     "addr_prefix": "nibi",
-    "logo": "/logos/nibi.jpg",
+    "logo": "/logos/nibiru.png",
     "theme_color": "#020c9c",
     "assets": [{
         "base": "unibi",
         "symbol": "NIBI",
         "exponent": "6",
         "coingecko_id": "", 
-        "logo": "/logos/nibi.jpg"
+        "logo": "/logos/nibiru.png"
     }]
   }
