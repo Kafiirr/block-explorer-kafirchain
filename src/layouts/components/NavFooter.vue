@@ -11,7 +11,7 @@
       By&nbsp;
       <a
         class="link link-primary no-underline"
-        href="https://kafir.framer.website"
+        href="https://kafiirr.com"
         target="_blank"
         rel="noopener noreferrer"
         >Kafir Website</a
@@ -22,13 +22,13 @@
     >
       <a
         class="link link-primary no-underline mr-4"
-        href="https://github.com/ping-pub/explorer/blob/master/LICENSE"
+        href="https://x.com/Bacchetta0"
         target="noopener noreferrer"
-        >License</a
+        >X</a
       >
       <a
         class="link link-primary no-underline"
-        href="https://github.com/ping-pub/explorer"
+        href="https://github.com/Kafiirr"
         target="noopener noreferrer"
         >Github</a
       >
