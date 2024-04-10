@@ -14,7 +14,7 @@
         "base": "unibi",
         "symbol": "NIBI",
         "exponent": "6",
-        "coingecko_id": "", 
+        "coingecko_id": "nibiru", 
         "logo": "/logos/nibiru.png"
     }]
   }

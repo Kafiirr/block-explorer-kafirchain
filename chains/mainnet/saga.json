@@ -1,0 +1,20 @@
+{
+    "chain_name": "Saga",
+    "api": ["https://saga.api.kjnodes.com"],
+    "rpc": ["https://saga.rpc.kjnodes.com"],
+    "chainId": "ssc-1",
+    "snapshot_provider": "",
+    "sdk_version": "0.46.1",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "saga",
+    "logo": "/logos/saga.jpg",
+    "theme_color": "#5c5e5d",
+    "assets": [{
+        "base": "usaga",
+        "symbol": "SAGA",
+        "exponent": "6",
+        "coingecko_id": "saga-2", 
+        "logo": "/logos/saga.jpg"
+    }]
+  }
