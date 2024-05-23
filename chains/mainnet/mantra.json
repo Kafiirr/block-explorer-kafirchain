@@ -1,0 +1,20 @@
+  {
+    "chain_name": "Mantra Hongbai",
+    "api": ["https://api.hongbai.mantrachain.io"],
+    "rpc": ["https://rpc.hongbai.mantrachain.io"],
+    "chainId": "mantra-hongbai-1",
+    "snapshot_provider": "",
+    "sdk_version": "0.46.1",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "mantra",
+    "logo": "/logos/mantra.png",
+    "theme_color": "#FBA7B5",
+    "assets": [{
+        "base": "uom",
+        "symbol": "OM",
+        "exponent": "6",
+        "coingecko_id": "mantra-dao", 
+        "logo": "/logos/mantra.png"
+    }]
+  }
