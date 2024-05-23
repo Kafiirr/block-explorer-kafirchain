@@ -241,7 +241,7 @@ function selected(route: any, nav: NavLink) {
         </a>
        -->
         <a
-          href="https://kafir.framer.website"
+          href="https://kafiirr.com"
           target="_blank"
           class="py-2 px-4 flex items-center rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-[#373f59]"
         >
