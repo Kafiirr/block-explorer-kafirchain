@@ -1,7 +1,7 @@
   {
     "chain_name": "Mantra Hongbai",
-    "api": ["https://api.hongbai.mantrachain.io"],
-    "rpc": ["https://rpc.hongbai.mantrachain.io"],
+    "api": ["https://mantra-testnet-api.itrocket.net"],
+    "rpc": ["https://mantra-testnet-rpc.itrocket.net"],
     "chainId": "mantra-hongbai-1",
     "snapshot_provider": "",
     "sdk_version": "0.46.1",
