@@ -1,48 +1,57 @@
 {
-    "rpc": "https://cosmos-rpc.kafirchain.site",
-    "rest": "https://cosmos-rest.kafirchain.site",
-    "chainId": "kafirchain_4272528-1",
-    "chainName": "Kafirchain Testnet",
-    "chainSymbolImageUrl": "https://raw.githubusercontent.com/dymensionxyz/chain-registry/main/devnet/kafirchain_4272528-1/logos/logo_kafirchain.png",
-    "stakeCurrency": {
-      "coinDenom": "KFR",
-      "coinMinimalDenom": "uKFR",
-      "coinDecimals": 18
-    },
-    "bip44": {
-      "coinType": 60
-    },
-    "bech32Config": {
-        "bech32PrefixAccAddr": "ethm",
+	"chainId": "kafirchain_4272528-1",
+	"chainName": "Kafirchain Testnet",
+        "chainSymbolImageUrl": "https://raw.githubusercontent.com/dymensionxyz/chain-registry/main/devnet/kafirchain_4272528-1/logos/logo_kafirchain.png",
+	"rpc": "https://cosmos-rpc.kafirchain.site",
+	"rest": "https://cosmos-rest.kafirchain.site",
+	"bip44": {
+		"coinType": 60
+	},
+	"coinType": 60,
+	"bech32Config": {
+		"bech32PrefixAccAddr": "ethm",
 		"bech32PrefixAccPub": "ethmpub",
 		"bech32PrefixValAddr": "ethmvaloper",
 		"bech32PrefixValPub": "ethmvaloperpub",
 		"bech32PrefixConsAddr": "ethmvalcons",
 		"bech32PrefixConsPub": "ethmvalconspub"
-    },
-    "currencies": [
-      {
-        "coinDenom": "KFR",
-        "coinMinimalDenom": "uKFR",
-        "coinDecimals": 18
-      }
-    ],
-    "feeCurrencies": [
-      {
-        "coinDenom": "KFR",
-        "coinMinimalDenom": "uKFR",
-        "coinDecimals": 18,
-        "gasPriceStep": {
-          "low": 0.01,
-          "average": 0.025,
-          "high": 0.03
-        }
-      }
-    ],
-    "features": [
-        "ibc-transfer",
-	"ibc-go",
-	"eth-address-gen",
-	"eth-key-sign"
-    ]
+	},
+	"currencies": [
+		{
+			"coinDenom": "KFR",
+			"coinMinimalDenom": "uKFR",
+			"coinDecimals": 18,
+			"coinGeckoId": "unknown"
+		}
+	],
+	"feeCurrencies": [
+		{
+			"coinDenom": "KFR",
+			"coinMinimalDenom": "uKFR",
+			"coinDecimals": 18,
+			"coinGeckoId": "unknown",
+			"gasPriceStep": {
+				"low": 0.01,
+				"average": 0.025,
+				"high": 0.03
+			}
+		}
+	],
+	"gasPriceStep": {
+		"low": 0.01,
+		"average": 0.025,
+		"high": 0.03
+	},
+	"stakeCurrency": {
+		"coinDenom": "KFR",
+		"coinMinimalDenom": "uKFR",
+		"coinDecimals": 18,
+		"coinGeckoId": "unknown"
+	},
+	"features": [
+		"ibc-transfer",
+		"ibc-go",
+		"eth-address-gen",
+		"eth-key-sign"
+	]
 }
