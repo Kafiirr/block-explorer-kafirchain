@@ -3,7 +3,7 @@
     "rest": "https://cosmos-rest.kafirchain.site",
     "chainId": "kafirchain_4272528-1",
     "chainName": "Kafirchain Testnet",
-    "chainSymbolImageUrl": "/logos/kafir.png",
+    "chainSymbolImageUrl": "https://raw.githubusercontent.com/dymensionxyz/chain-registry/main/devnet/kafirchain_4272528-1/logos/logo_kafirchain.png",
     "stakeCurrency": {
       "coinDenom": "KFR",
       "coinMinimalDenom": "uKFR",
