@@ -1,23 +1,48 @@
 {
-    "chain_name": "Kafirchain Testnet",
-    "api": "https://cosmos-rest.kafirchain.site",
     "rpc": "https://cosmos-rpc.kafirchain.site",
+    "rest": "https://cosmos-rest.kafirchain.site",
     "chainId": "kafirchain_4272528-1",
-    "snapshot_provider": "",
-    "sdk_version": "0.46.1",
-    "coin_type": "60",
-    "min_tx_fee": "800",
-    "addr_prefix": "ethm",
-    "logo": "/logos/kafir.png",
-    "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
-    "theme_color": "#bf022e",
-    "assets": [{
-        "base": "uKFR",
-        "symbol": "KFR",
-        "exponent": "18",
-        "coingecko_id": "", 
-        "logo": "/logos/kafir.png"
-    }],
-    "beta": true
-  }
-  
+    "chainName": "Kafirchain Testnet",
+    "chainSymbolImageUrl": "/logos/kafir.png",
+    "stakeCurrency": {
+      "coinDenom": "KFR",
+      "coinMinimalDenom": "uKFR",
+      "coinDecimals": 18
+    },
+    "bip44": {
+      "coinType": 60
+    },
+    "bech32Config": {
+        "bech32PrefixAccAddr": "ethm",
+		"bech32PrefixAccPub": "ethmpub",
+		"bech32PrefixValAddr": "ethmvaloper",
+		"bech32PrefixValPub": "ethmvaloperpub",
+		"bech32PrefixConsAddr": "ethmvalcons",
+		"bech32PrefixConsPub": "ethmvalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "KFR",
+        "coinMinimalDenom": "uKFR",
+        "coinDecimals": 18
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "KFR",
+        "coinMinimalDenom": "uKFR",
+        "coinDecimals": 18,
+        "gasPriceStep": {
+          "low": 0.01,
+          "average": 0.025,
+          "high": 0.03
+        }
+      }
+    ],
+    "features": [
+        "ibc-transfer",
+		"ibc-go",
+		"eth-address-gen",
+		"eth-key-sign"
+    ]
+}
