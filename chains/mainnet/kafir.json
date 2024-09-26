@@ -1,25 +1,25 @@
 {
-	"chainId": "kafirchain_4272528-1",
-	"chainName": "Kafirchain Testnet",
+	"chainId": "kafirchainrollapps_11666-1",
+	"chainName": "Kafirchain PG Testnet",
         "chainSymbolImageUrl": "https://raw.githubusercontent.com/dymensionxyz/chain-registry/main/devnet/kafirchain_4272528-1/logos/logo_kafirchain.png",
-	"rpc": "https://cosmos-rpc.kafirchain.site",
-	"rest": "https://cosmos-rest.kafirchain.site",
+	"rpc": "https://3d.dymension.rpc.cumulo.org.es",
+	"rest": "https://3d.dymension.api.cumulo.org.es",
 	"bip44": {
 		"coinType": 60
 	},
 	"coinType": 60,
 	"bech32Config": {
-		"bech32PrefixAccAddr": "ethm",
-		"bech32PrefixAccPub": "ethmpub",
-		"bech32PrefixValAddr": "ethmvaloper",
-		"bech32PrefixValPub": "ethmvaloperpub",
-		"bech32PrefixConsAddr": "ethmvalcons",
-		"bech32PrefixConsPub": "ethmvalconspub"
+		"bech32PrefixAccAddr": "kfr",
+		"bech32PrefixAccPub": "kfrpub",
+		"bech32PrefixValAddr": "kfrvaloper",
+		"bech32PrefixValPub": "kfrvaloperpub",
+		"bech32PrefixConsAddr": "kfrvalcons",
+		"bech32PrefixConsPub": "kfrvalconspub"
 	},
 	"currencies": [
 		{
 			"coinDenom": "KFR",
-			"coinMinimalDenom": "uKFR",
+			"coinMinimalDenom": "akfr",
 			"coinDecimals": 18,
 			"coinGeckoId": "unknown"
 		}
@@ -27,24 +27,24 @@
 	"feeCurrencies": [
 		{
 			"coinDenom": "KFR",
-			"coinMinimalDenom": "uKFR",
+			"coinMinimalDenom": "akfr",
 			"coinDecimals": 18,
 			"coinGeckoId": "unknown",
 			"gasPriceStep": {
-				"low": 0.01,
-				"average": 0.025,
-				"high": 0.03
+				"low": 2000000000,
+				"average": 2000000000,
+				"high": 2000000000
 			}
 		}
 	],
 	"gasPriceStep": {
-		"low": 0.01,
-		"average": 0.025,
-		"high": 0.03
+		"low": 2000000000,
+		"average": 2000000000,
+		"high": 2000000000
 	},
 	"stakeCurrency": {
 		"coinDenom": "KFR",
-		"coinMinimalDenom": "uKFR",
+		"coinMinimalDenom": "akfr",
 		"coinDecimals": 18,
 		"coinGeckoId": "unknown"
 	},
