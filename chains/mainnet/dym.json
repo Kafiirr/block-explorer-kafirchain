@@ -1,8 +1,8 @@
 {
-    "chain_name": "Dymension Testnet",
-    "api": ["https://dymension.api.t.stavr.tech","https://dymension-testnet.api.kjnodes.com" ],
-    "rpc": ["https://dym.rpc.t.stavr.tech", "https://dymension-testnet.rpc.kjnodes.com"],
-    "chainId": "froopyland_100-1",
+    "chain_name": "Dymension PlayGround",
+    "api": ["https://api-dymension-playground.mzonder.com" ],
+    "rpc": ["https://jsonrpc-dymension-playground.mzonder.com"],
+    "chainId": "dymension_2018-1",
     "snapshot_provider": "",
     "sdk_version": "0.46.1",
     "coin_type": "60",
@@ -11,7 +11,7 @@
     "logo": "/logos/dym.png",
     "theme_color": "#ad916d",
     "assets": [{
-        "base": "udym",
+        "base": "adym",
         "symbol": "dym",
         "exponent": "18",
         "coingecko_id": "", 
