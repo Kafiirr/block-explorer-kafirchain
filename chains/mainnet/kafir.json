@@ -1,57 +1,20 @@
 {
-	"chainId": "kafirchainrollapps_11666-1",
-	"chainName": "Kafirchain PG Testnet",
-        "chainSymbolImageUrl": "https://raw.githubusercontent.com/dymensionxyz/chain-registry/main/devnet/kafirchain_4272528-1/logos/logo_kafirchain.png",
-	"rpc": "https://3d.dymension.rpc.cumulo.org.es",
-	"rest": "https://3d.dymension.api.cumulo.org.es",
-	"bip44": {
-		"coinType": 60
-	},
-	"coinType": 60,
-	"bech32Config": {
-		"bech32PrefixAccAddr": "kfr",
-		"bech32PrefixAccPub": "kfrpub",
-		"bech32PrefixValAddr": "kfrvaloper",
-		"bech32PrefixValPub": "kfrvaloperpub",
-		"bech32PrefixConsAddr": "kfrvalcons",
-		"bech32PrefixConsPub": "kfrvalconspub"
-	},
-	"currencies": [
-		{
-			"coinDenom": "KFR",
-			"coinMinimalDenom": "akfr",
-			"coinDecimals": 18,
-			"coinGeckoId": "unknown"
-		}
-	],
-	"feeCurrencies": [
-		{
-			"coinDenom": "KFR",
-			"coinMinimalDenom": "akfr",
-			"coinDecimals": 18,
-			"coinGeckoId": "unknown",
-			"gasPriceStep": {
-				"low": 2000000000,
-				"average": 2000000000,
-				"high": 2000000000
-			}
-		}
-	],
-	"gasPriceStep": {
-		"low": 2000000000,
-		"average": 2000000000,
-		"high": 2000000000
-	},
-	"stakeCurrency": {
-		"coinDenom": "KFR",
-		"coinMinimalDenom": "akfr",
-		"coinDecimals": 18,
-		"coinGeckoId": "unknown"
-	},
-	"features": [
-		"ibc-transfer",
-		"ibc-go",
-		"eth-address-gen",
-		"eth-key-sign"
-	]
-}
+    "chain_name": "Kafirchain",
+    "api": ["https://3d.dymension.api.cumulo.org.es"],
+    "rpc": ["https://3d.dymension.rpc.cumulo.org.es"],
+    "chainId": "kafirchainrollapps_11666-1",
+    "snapshot_provider": "",
+    "sdk_version": "0.46.1",
+    "coin_type": "60",
+    "min_tx_fee": "800",
+    "addr_prefix": "kfr",
+    "logo": "/logos/kafir.png",
+    "theme_color": "#bf022e",
+    "assets": [{
+        "base": "akfr",
+        "symbol": "KFR",
+        "exponent": "18",
+        "coingecko_id": "", 
+        "logo": "/logos/kafir.png"
+    }]
+  }
