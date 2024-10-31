@@ -2,7 +2,7 @@
     "chain_name": "Kafirchain",
     "api": ["https://3d.dymension.api.cumulo.org.es"],
     "rpc": ["https://3d.dymension.rpc.cumulo.org.es"],
-    "chainId": "kafirchainrollapps_11666-1",
+    "chainId": "kafirchain_6660-1",
     "snapshot_provider": "",
     "sdk_version": "0.46.1",
     "coin_type": "60",
