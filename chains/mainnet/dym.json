@@ -1,7 +1,7 @@
 {
     "chain_name": "Dymension PlayGround",
-    "api": ["https://api-dymension-playground.mzonder.com" ],
-    "rpc": ["https://jsonrpc-dymension-playground.mzonder.com"],
+    "api": ["https://api-dymension-playground-2.mzonder.com" ],
+    "rpc": ["https://rpc-dymension-playground-2.mzonder.com"],
     "chainId": "dymension_2018-1",
     "snapshot_provider": "",
     "sdk_version": "0.46.1",
